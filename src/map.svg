@@ -6,8 +6,45 @@
    version="1.1"
    id="svg1"
    xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs1">
+        <symbol id="AigaSymbols.svg:Elevator">
+            <title id="title71">Elevator</title><g
+       style="stroke: var(--main-fg, #231f20);fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+       id="g73"><!-- Arrow up --><path
+         d="M 26.5,23.5 V 6.5 M 20,14 26.5,6.5 33,14"
+         id="path72-9" /><!-- Arrow down --><path
+         d="m 45.5,6.5 v 17 M 39,16 45.5,23.5 52,16"
+         id="path73-3" /></g><rect
+       x="17"
+       y="28"
+       width="38"
+       height="38"
+       ry="5"
+       style="stroke:none"
+       id="rect73" /><rect
+       x="22"
+       y="33"
+       width="28"
+       height="28"
+       style="fill:#ffffff;stroke:none"
+       id="rect74" /><g
+       id="person1"
+       style="stroke:none"><circle
+         cx="27.5"
+         cy="38.75"
+         r="1.75"
+         id="circle74" /><path
+         d="m 24.5,41 a 1,1 0 0 0 -1,1 v 7 a 1,1 0 0 0 1,1 h 0.25 v 8.5 a 1.25,1.25 0 1 0 2.5,0 V 50 h 0.5 v 8.5 a 1.25,1.25 0 1 0 2.5,0 V 50 h 0.25 a 1,1 0 0 0 1,-1 v -7 a 1,1 0 0 0 -1,-1 z"
+         id="path74-3" /></g><use
+       x="8.5"
+       xlink:href="#person1"
+       id="use74" /><use
+       x="17"
+       xlink:href="#person1"
+       id="use75" /></symbol></defs>
 
     <style
    id="style1">
@@ -166,7 +203,7 @@
    class="hall"
    transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
       <path
-              id="path21"
+   id="path21"
    d="m 1949.988,1654.969 h -543.719 v 792.992 h 543.719 z"
    class="hall stora_scen"
    transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
@@ -280,11 +317,12 @@
    d="m 0,0 c -12.242,0 -22.202,9.959 -22.202,22.202 0,6.283 2.635,11.952 6.843,15.995 l -0.847,9.478 c -8.415,-5.373 -14.021,-14.771 -14.021,-25.473 0,-16.668 13.56,-30.227 30.227,-30.227 10.1,0 19.035,4.997 24.527,12.629 l -3.696,9.988 C 17.714,6.092 9.566,0 0,0"
    class="symbol"
    transform="matrix(1.3333333,0,0,-1.3333333,3056.5892,1921.6304)" />
-      <path
+<path
    id="path46"
    d="m 0,0 h -1889.836 v 1251.585 h 25.179 l -1.979,425.643 h 360.854 l 0.064,731.567 H 0 Z"
    class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,3048.3805,5994.8384)" />
+   transform="matrix(1.3333333,0,0,-1.3333333,3048.3805,5994.8386)"
+   style="display:inline" />      
       <path
    id="path47"
    d="m 0,0 264.786,-0.476 v 894.239 l -1815.9904,-2.36856"
@@ -315,6 +353,11 @@
    d="m 2075.392,3612.781 h -112.51 v 99.118 h 112.51 z"
    class="lines"
    transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
+    <use
+   xlink:href="#AigaSymbols.svg:Elevator"
+   style="fill:#000000;stroke:#000000"
+   id="elevator"
+   transform="matrix(1.6990682,0,0,1.6990682,2637.4379,1480)" />
       <path
    id="path53"
    d="m 2076.432,1132.836 h -109.335 v 99.118 h 109.335 z"
@@ -355,56 +398,16 @@
    d="m 2195.672,1218.718 h -118.721 v 25.111 h 118.721 z"
    class="lines"
    transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path61"
-   d="M 2284.466,1064.58 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path62"
-   d="M 2284.466,1089.686 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path63"
-   d="M 2284.466,1113.577 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path64"
-   d="M 2284.466,1138.031 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path65"
-   d="M 2284.466,1162.758 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path66"
-   d="M 2284.466,1186.795 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path67"
-   d="M 2284.466,1211.901 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path68"
-   d="M 2284.466,1235.792 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path69"
-   d="M 2284.466,1260.245 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
-   id="path70"
-   d="M 2284.466,1284.973 H 2208.1 v 24.443 h 76.366 z"
-   class="lines"
-   transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       <path
    id="path71"
    d="m 2289.532,3612.502 h -76.366 v 24.443 h 76.366 z"
@@ -602,10 +605,57 @@
    d="m 1969.849,1062.732 h -33.767 v 56.693 h 33.767 z"
    class="erase"
    transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" />
-      <path
+      <g
+   id="g5" /><path
    id="path123"
    d="M 3050.9188,4788.1182 H 4313.3456"
-   class="borders narrow" />
+   class="borders narrow" /><g
+   id="g6"
+   style="display:inline"
+   transform="translate(2.611693,-187.54752)"><g
+     id="g7"><path
+       id="path62"
+       d="M 2284.466,1089.686 H 2208.1 v 24.443 h 76.366 z"
+       class="lines"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><path
+       id="path65"
+       d="M 2284.466,1162.758 H 2208.1 v 24.443 h 76.366 z"
+       class="lines"
+       transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><g
+       id="g4"><path
+         id="path63"
+         d="M 2284.466,1113.577 H 2208.1 v 24.443 h 76.366 z"
+         class="lines"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><path
+         id="path66"
+         d="M 2284.466,1186.795 H 2208.1 v 24.443 h 76.366 z"
+         class="lines"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><path
+         id="path67"
+         d="M 2284.466,1211.901 H 2208.1 v 24.443 h 76.366 z"
+         class="lines"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><path
+         id="path68"
+         d="M 2284.466,1235.792 H 2208.1 v 24.443 h 76.366 z"
+         class="lines"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><path
+         id="path69"
+         d="M 2284.466,1260.245 H 2208.1 v 24.443 h 76.366 z"
+         class="lines"
+         transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><g
+         id="g2"><path
+           id="path61"
+           d="M 2284.466,1064.58 H 2208.1 v 24.443 h 76.366 z"
+           class="lines"
+           transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><path
+           id="path64"
+           d="M 2284.466,1138.031 H 2208.1 v 24.443 h 76.366 z"
+           class="lines"
+           transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /><path
+           id="path70"
+           d="M 2284.466,1284.973 H 2208.1 v 24.443 h 76.366 z"
+           class="lines"
+           transform="matrix(1.3333333,0,0,-1.3333333,0,6425.2)" /></g></g></g></g>
       <path
    id="path124"
    d="M 374.91692,2552.9544 H 4303.3193"
@@ -697,8 +747,8 @@
      x="3260.5945"
      y="2025.9023">Sveas salong</tspan></text>
     <text
-        xml:space="preserve"
-        class="room"
+   xml:space="preserve"
+   class="room"
    x="3254.9312"
    y="2354.707"
    id="text10"><tspan
@@ -737,6 +787,21 @@
      id="tspan16">målarsal</tspan><tspan
      x="688.58978"
      y="1863.1588"
-     id="tspan17">Fantikvariatet</tspan></text></g>
+     id="tspan17">Fantikvariatet</tspan></text>
+    <use
+   xlink:href="#AigaSymbols.svg:Elevator"
+   style="fill:#000000;stroke:#000000"
+   id="use1"
+   transform="matrix(1.6990682,0,0,1.6990682,2637.4379,4791.7159)" />
+    <text
+   xml:space="preserve"
+   class="room"
+   x="3065.7749"
+   y="4686.854"
+   id="text18"><tspan
+     id="tspan18"
+     style="stroke-width:7.55906"
+     x="3065.7749"
+     y="4686.854">Registration</tspan></text></g>
   </g>
 </svg>

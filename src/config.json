@@ -45,11 +45,11 @@
     "LABEL": "Show on map",
     "HIGHLIGHT_STYLE": "fill: var(--brand-400) !important;",
     "MAPPING": [
-      { "KEY": "Stora scen", "ID": "stora_scen" },
-        { "KEY": "Lilla scen", "ID": "lilla_scen" },
-        { "KEY": "Alice arbetsrum", "ID": "alice" },
-        { "KEY": "Luigis lokal", "ID": "luigi" },
-        { "KEY": "Sveas salong", "ID": "svea" }
+      { "KEY": "Stora scen", "CSS_SELECTOR": ".stora_scen" },
+        { "KEY": "Lilla scen", "CSS_SELECTOR": ".lilla_scen" },
+        { "KEY": "Alice arbetsrum", "CSS_SELECTOR": ".alice" },
+        { "KEY": "Luigis lokal", "CSS_SELECTOR": ".luigi" },
+        { "KEY": "Sveas salong", "CSS_SELECTOR": ".svea" }
     ]
   },
   "VENUES": {
