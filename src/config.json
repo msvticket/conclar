@@ -49,6 +49,8 @@
         { "KEY": "Lilla scen", "CSS_SELECTOR": ".lilla_scen" },
         { "KEY": "Alice arbetsrum", "CSS_SELECTOR": ".alice" },
         { "KEY": "Luigis lokal", "CSS_SELECTOR": ".luigi" },
+        { "KEY": "Foyer", "CSS_SELECTOR": ".foyer" },
+        { "KEY": "Upper foyer", "CSS_SELECTOR": ".upper_foyer" },
         { "KEY": "Sveas salong", "CSS_SELECTOR": ".svea" }
     ]
   },
@@ -56,7 +58,7 @@
     "ALL_LABEL": "All @venue",
     "UNGROUPED_LABEL": "Other",
     "MAPPING": [
-        { "NAME": "Dieselverkstaden", "LOCATIONS": ["Stora scen", "Lilla scen", "Alice arbetsrum", "Luigis lokal",  "Sveas salong"] }
+        { "NAME": "Dieselverkstaden", "LOCATIONS": ["Stora scen", "Lilla scen", "Alice arbetsrum", "Luigis lokal",  "Sveas salong", "Foyer", "Upper foyer"] }
     ]
   },
   "APPLICATION": {
@@ -66,7 +68,7 @@
   },
   "PROGRAM": {
     "LIMIT": {
-      "SHOW": true,
+      "SHOW": false,
       "LABEL": "Maximum items displayed",
       "OPTIONS": [50, 100, 250, 500, 1000],
       "ALL_LABEL": "Show all",
@@ -211,7 +213,7 @@
       "SHOW_THUMBNAILS": true,
       "SHOW_CHECKBOX": true,
       "CHECKBOX_LABEL": "Show thumbnails",
-      "DEFAULT_IMAGE": "head.svg"
+      "DEFAULT_IMAGE": "maskot2b.png"
     },
     "SORT": {
       "SHOW_CHECKBOX": true,
@@ -239,7 +241,7 @@
     "CHECKBOX_LABEL": "Useless checkbox"
   },
   "INFORMATION": {
-    "MARKDOWN_URL": "guide/info.md",
+    "MARKDOWN_URL": "guide/info.html",
     "LOADING_MESSAGE": "Loading..."
   },
   "SETTINGS": {
