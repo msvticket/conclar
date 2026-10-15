@@ -815,20 +815,25 @@
      style="stroke-width:7.55906"
      x="3065.7749"
      y="4686.854">Registration</tspan></text>
-    <text
-     class="room"
-   id="foyer"
+    <rect
+        id="foyer"
+        class="erase"
+   width="374.87152"
+   height="605.26123"
+   x="2647.5981"
+   y="3846.0542" /><text
+   class="room"
+   id="foyer_text"
    width="393.25278"
    height="607.75427"
    x="2633.5149"
    y="3850.9487"
-   xml:space="preserve"
-   ><tspan
+   xml:space="preserve"><tspan
      id="tspan24"
      style="stroke-width:7.55906"
      x="2754.561"
      y="4025.8433">Foajén</tspan></text><rect
-     class="erase"
+   class="erase"
    id="upper_foyer"
    width="182.97662"
    height="196.53044"
