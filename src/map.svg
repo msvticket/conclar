@@ -12,7 +12,7 @@
     <defs id="defs1">
         <symbol id="AigaSymbols.svg:Elevator">
             <title id="title71">Elevator</title><g
-       style="stroke: var(--main-fg, #231f20);fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+       style="stroke: #231f20;fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
        id="g73"><!-- Arrow up --><path
          d="M 26.5,23.5 V 6.5 M 20,14 26.5,6.5 33,14"
          id="path72-9" /><!-- Arrow down --><path
@@ -69,8 +69,8 @@
     stroke:none;
   }
 
-  path.erase {
-    fill: var(--main-bg, #ffffff);
+  path.erase, rect.erase {
+    fill: #ffffff;
     fill-opacity:1;
     fill-rule:nonzero;
     stroke:none;
@@ -78,7 +78,7 @@
 
   path.lines {
     fill: none;
-    stroke: var(--main-fg, #231f20);
+    stroke: #231f20;
     stroke-width:10.8;
     stroke-linecap:butt;
     stroke-linejoin:miter;
@@ -88,7 +88,7 @@
   }
 
   path.symbol {
-    fill: var(--main-fg, #231f20);
+    fill: #231f20;
     fill-opacity:1;
     fill-rule:nonzero;
     stroke:none;
@@ -96,7 +96,7 @@
 
   path.borders {
     fill: none;
-    stroke: var(--main-fg, #231f20);
+    stroke: #231f20;
     stroke-width: 6.016;
     stroke-linecap: butt;
     stroke-linejoin: miter;
@@ -120,14 +120,14 @@
   text.floor {
     font-size:161.26px;
     font-family:'Franklin Gothic Medium';
-    fill:var(--main-fg, #000000);
+    fill:#000000;
   }
 
   text.room {
     font-size:120.945px;
     font-family:'Franklin Gothic Medium';
-    fill:var(--main-fg, #000000);
-    stroke:var(--main-bg, #ffffff);
+    fill:#000000;
+    stroke:#ffffff;
     stroke-width:15;
     stroke-dasharray:none;
     stroke-opacity:1;
@@ -137,7 +137,7 @@
   text.hall {
     font-size:120.945px;
     font-family:'Franklin Gothic Medium';
-    fill:var(--main-bg, #ffffff);
+    fill:#ffffff;
   }
   </style>
 
@@ -740,21 +740,33 @@
     <text
    xml:space="preserve"
    class="room"
-   x="3260.5945"
-   y="2025.9023"
+   x="3287.0884"
+   y="1946.4209"
    id="text9"><tspan
-     id="tspan9"
-     x="3260.5945"
-     y="2025.9023">Sveas salong</tspan></text>
+     id="tspan22"
+     x="3287.0884"
+     y="1946.4209"><tspan
+       id="tspan9"
+       x="3287.0884"
+       y="1946.4209">Sveas salong</tspan></tspan><tspan
+     id="tspan23"
+     x="3287.0884"
+     y="2097.6021">Bokhandel</tspan></text>
     <text
    xml:space="preserve"
    class="room"
-   x="3254.9312"
-   y="2354.707"
+   x="3281.425"
+   y="2337.0444"
    id="text10"><tspan
-     id="tspan10"
-     x="3254.9312"
-     y="2354.707">Alice arbetsrum</tspan></text>
+     id="tspan19"
+     x="3281.425"
+     y="2337.0444"><tspan
+       id="tspan10"
+       x="3281.425"
+       y="2337.0444">Alice arbetsrum</tspan></tspan><tspan
+     x="3281.425"
+     y="2488.2256"
+     id="tspan21">Spelrum</tspan></text>
     <text
    xml:space="preserve"
    class="room"
@@ -802,6 +814,38 @@
      id="tspan18"
      style="stroke-width:7.55906"
      x="3065.7749"
-     y="4686.854">Registration</tspan></text></g>
+     y="4686.854">Registration</tspan></text>
+    <text
+     class="room"
+   id="foyer"
+   width="393.25278"
+   height="607.75427"
+   x="2633.5149"
+   y="3850.9487"
+   xml:space="preserve"
+   ><tspan
+     id="tspan24"
+     style="stroke-width:7.55906"
+     x="2754.561"
+     y="4025.8433">Foajén</tspan></text><rect
+     class="erase"
+   id="upper_foyer"
+   width="182.97662"
+   height="196.53044"
+   x="2654.854"
+   y="1734.1271" /><text
+   xml:space="preserve"
+   class="room"
+   x="2481.0327"
+   y="1829.1125"
+   id="text25"><tspan
+     id="tspan25"
+     style="stroke-width:7.55906"
+     x="2481.0327"
+     y="1829.1125">Övre</tspan><tspan
+     style="stroke-width:7.55906"
+     x="2481.0327"
+     y="1980.2938"
+     id="tspan26">Foajén</tspan></text></g>
   </g>
 </svg>
