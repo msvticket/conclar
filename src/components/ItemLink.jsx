@@ -1,7 +1,7 @@
 import { useStoreActions } from 'easy-peasy';
 
 const ItemLink = ({ name, link, locationCSSSelector, text, enabled }) => {
-  if (locationCSSSelector !== "") {
+  if (locationCSSSelector) {
     const showMap = useStoreActions((actions) => actions.showMap);
 
     return <div className={name}>
